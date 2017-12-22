@@ -1,7 +1,7 @@
 # go_starters1
 golang
 
-- сервер с докером
+- сервер с докером предположим 95.213.200.238
 - `docker run --name go -p 4321:4321 -itd golang:1.10beta1-alpine3.7 tail -f /dev/null`
 - `docker exec -it go sh`
 - `vi web.go`
@@ -24,3 +24,4 @@ func main() {
 ```
 - `go run web.go`
 - или извне контейнера: `docker exec -it go go run web.go`
+- в браузере http://95.213.200.238:4321/apples/
